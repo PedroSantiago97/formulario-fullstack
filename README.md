@@ -54,13 +54,13 @@ Steps:
 
 - Update src/main/resources/application.properties:  
   
-spring.application.name=projetoSimples  
-server.port = 8080  
-spring.datasource.url=jdbc:postgresql://localhost:5432/postgres  
-spring.datasource.username=postgres  
-spring.datasource.password=5060  
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect  
-spring.jpa.hibernate.ddl-auto=update  
+  spring.application.name=projetoSimples  
+  server.port = 8080  
+  spring.datasource.url=jdbc:postgresql://localhost:5432/postgres  
+  spring.datasource.username=postgres  
+  spring.datasource.password=5060  
+  spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect  
+  spring.jpa.hibernate.ddl-auto=update  
 
 3. Run the application:
 
