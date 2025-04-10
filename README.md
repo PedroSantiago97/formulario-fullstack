@@ -23,7 +23,7 @@ This project has two main components:
 
 - VS Code installed.  
 
-- Recommended extension: Live Server (for real-time preview).  
+- Recommended extension: Live Server (for real-time preview).    
 
 👣Steps
 1. Clone the repository:  git clone https://github.com/PedroSantiago97/formulario-fullstack.git
@@ -42,7 +42,7 @@ This project has two main components:
 
    - Maven (for dependency management).  
 
-   - PostgreSQL (or your preferred database).
+   - PostgreSQL (or your preferred database).  
 👣Steps:  
 1. Import the project into Eclipse:  
 
@@ -73,7 +73,7 @@ This project has two main components:
 
 ### 💾Create DataBase:  
 📋Prerequisites:
-  - Install Postgres SQL
+  - Install Postgres SQL  
 👣Steps:  
 1.In postgres, create a database named "postgres"  
 2. Enter the command for create table:  
