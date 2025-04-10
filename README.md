@@ -25,5 +25,12 @@ Prerequisites:
 
 - Recommended extension: Live Server (for real-time preview).  
 
+Steps
+1. Clone the repository:  git clone https://github.com/PedroSantiago97/formulario-fullstack.git
+2. Open the frontend folder in VS Code
+3. Run the project:  
 
+Open index.html with Live Server (right-click → Open with Live Server or use the shortcut Alt + L + O).  
+
+The app will launch at http://localhost:5500.  
 
