@@ -77,7 +77,8 @@ This project has two main components:
   - Install Postgres SQL
 
 👣Steps:  
-   1.In postgres, create a database named "postgres"    
+  
+  1.In postgres, create a database named "postgres"    
   
   2. Enter the command for create table:  
        
