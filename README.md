@@ -25,7 +25,7 @@ This project has two main components:
 
 - Recommended extension: Live Server (for real-time preview).  
 
-Steps
+👣Steps
 1. Clone the repository:  git clone https://github.com/PedroSantiago97/formulario-fullstack.git
 2. Open the frontend folder in VS Code
 3. Run the project:  
@@ -43,14 +43,14 @@ Steps
    - Maven (for dependency management).  
 
    - PostgreSQL (or your preferred database).
-Steps:  
+👣Steps:  
 1. Import the project into Eclipse:  
 
    - Go to File → Import → Maven → Existing Maven Projects.
 
    - Select the project/backend folder.
 
-2. ![image](https://github.com/user-attachments/assets/5e323ff3-fdaa-411e-9851-df96fcbb5600)⚙️Configure the database
+2. 💾⚙️Configure the database
 :  
 
 - Update src/main/resources/application.properties:  
@@ -71,10 +71,10 @@ Steps:
 
 - The backend will start at http://localhost:8080.
 
-### Create DataBase:  
+### 💾Create DataBase:  
 📋Prerequisites:
   - Install Postgres SQL
-Steps:  
+👣Steps:  
 1.In postgres, create a database named "postgres"  
 2. Enter the command for create table:  
   - CREATE TABLE usuario (
