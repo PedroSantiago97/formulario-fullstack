@@ -42,26 +42,27 @@ This project has two main components:
 
    - Maven (for dependency management).  
 
-   - PostgreSQL (or your preferred database).  
-👣Steps:  
-1. Import the project into Eclipse:  
-
-   - Go to File → Import → Maven → Existing Maven Projects.
-
-   - Select the project/backend folder.
-
-2. 💾⚙️Configure the database
-:  
-
-- Update src/main/resources/application.properties:  
+   - PostgreSQL (or your preferred database).
   
-  spring.application.name=projetoSimples  
-  server.port = 8080  
-  spring.datasource.url=jdbc:postgresql://localhost:5432/postgres  
-  spring.datasource.username=postgres  
-  spring.datasource.password=5060  
-  spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect  
-  spring.jpa.hibernate.ddl-auto=update  
+👣Steps:  
+  1. Import the project into Eclipse:  
+
+     - Go to File → Import → Maven → Existing Maven Projects.
+
+     - Select the project/backend folder.
+
+  2. 💾⚙️Configure the database:  
+  
+
+  - Update src/main/resources/application.properties:  
+  
+    spring.application.name=projetoSimples  
+    server.port = 8080  
+    spring.datasource.url=jdbc:postgresql://localhost:5432/postgres  
+    spring.datasource.username=postgres  
+    spring.datasource.password=5060  
+    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect  
+    spring.jpa.hibernate.ddl-auto=update  
 
 3. 🚀 Run the application:
 
@@ -73,16 +74,18 @@ This project has two main components:
 
 ### 💾Create DataBase:  
 📋Prerequisites:
-  - Install Postgres SQL  
+  - Install Postgres SQL
+
 👣Steps:  
-1.In postgres, create a database named "postgres"  
-2. Enter the command for create table:  
-  - CREATE TABLE usuario (
-    id SERIAL PRIMARY KEY,
-    nome VARCHAR(200),
-    email VARCHAR(50) NOT NULL,
-    senha TEXT NOT NULL,
-    telefone VARCHAR(15) NOT NULL,}  
+  1.In postgres, create a database named "postgres"  
+  2. Enter the command for create table:  
+    - CREATE TABLE usuario (
+      id SERIAL PRIMARY KEY,
+      nome VARCHAR(200),
+      email VARCHAR(50) NOT NULL,
+      senha TEXT NOT NULL,
+      telefone VARCHAR(15) NOT NULL,}  
+      
 Now, test the code
 
 
