@@ -30,7 +30,7 @@ Steps
 2. Open the frontend folder in VS Code
 3. Run the project:  
 
-Open index.html with Live Server (right-click → Open with Live Server or use the shortcut Alt + L + O).  
+  - Open index.html with Live Server (right-click → Open with Live Server or use the shortcut Alt + L + O).  
 
-The app will launch at http://localhost:5500.  
+  - The app will launch at http://localhost:5500.  
 
