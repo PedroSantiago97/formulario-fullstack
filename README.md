@@ -34,3 +34,12 @@ Steps
 
   - The app will launch at http://localhost:5500.  
 
+### ⚙️ Backend (Eclipse)  
+Prerequisites:  
+   - Eclipse IDE (Enterprise Java version recommended).  
+
+   - Java JDK 11+.  
+
+   - Maven (for dependency management).  
+
+   - PostgreSQL (or your preferred database).  
