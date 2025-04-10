@@ -78,13 +78,15 @@ This project has two main components:
 
 👣Steps:  
   1.In postgres, create a database named "postgres"  
-  2. Enter the command for create table:  
-    - CREATE TABLE usuario (  
-      id SERIAL PRIMARY KEY,  
-      nome VARCHAR(200),  
-      email VARCHAR(50) NOT NULL,  
-      senha TEXT NOT NULL,  
-      telefone VARCHAR(15) NOT NULL,)    
+  
+  2. Enter the command for create table:
+       
+  - CREATE TABLE usuario (  
+    id SERIAL PRIMARY KEY,  
+    nome VARCHAR(200),  
+    email VARCHAR(50) NOT NULL,  
+    senha TEXT NOT NULL,  
+    telefone VARCHAR(15) NOT NULL,)    
       
 Now, test the code ✅
 
