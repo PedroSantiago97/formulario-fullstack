@@ -61,3 +61,9 @@ spring.datasource.username=postgres
 spring.datasource.password=5060  
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect  
 spring.jpa.hibernate.ddl-auto=update  
+
+3. Run the application:
+
+- Right-click the project → Run As → Spring Boot App.
+
+- The backend will start at http://localhost:8080.
