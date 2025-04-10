@@ -19,7 +19,7 @@ This project has two main components:
 2. Backend (Java/Spring Boot) - Built with Eclipse.  
 
 ### 🖥️ Frontend (VS Code)  
-Prerequisites:  
+📋Prerequisites:  
 
 - VS Code installed.  
 
@@ -35,7 +35,7 @@ Steps
   - The app will launch at http://localhost:5500.  
 
 ### ⚙️ Backend (Eclipse)  
-Prerequisites:  
+📋Prerequisites:  
    - Eclipse IDE (Enterprise Java version recommended).  
 
    - Java JDK 11+.  
@@ -50,7 +50,8 @@ Steps:
 
    - Select the project/backend folder.
 
-2. Configure the database:  
+2. ![image](https://github.com/user-attachments/assets/5e323ff3-fdaa-411e-9851-df96fcbb5600)⚙️Configure the database
+:  
 
 - Update src/main/resources/application.properties:  
   
@@ -62,7 +63,7 @@ Steps:
   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect  
   spring.jpa.hibernate.ddl-auto=update  
 
-3. Run the application:
+3. 🚀 Run the application:
 
 - Right-click the project → Run As → Spring Boot App.
 
@@ -70,12 +71,18 @@ Steps:
 
 - The backend will start at http://localhost:8080.
 
-4. Create DataBase:  
-- In postgres, create a database named "postgres"
-- Enter the command for create table:
+### Create DataBase:  
+📋Prerequisites:
+  - Install Postgres SQL
+Steps:  
+1.In postgres, create a database named "postgres"  
+2. Enter the command for create table:  
   - CREATE TABLE usuario (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(200),
     email VARCHAR(50) NOT NULL,
     senha TEXT NOT NULL,
-    telefone VARCHAR(15) NOT NULL,}
+    telefone VARCHAR(15) NOT NULL,}  
+Now, test the code
+
+
