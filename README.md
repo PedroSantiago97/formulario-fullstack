@@ -18,7 +18,7 @@ This project has two main components:
 
 2. Backend (Java/Spring Boot) - Built with Eclipse.  
 
-###🖥️ Frontend (VS Code)  
+### 🖥️ Frontend (VS Code)  
 Prerequisites:  
 
 - VS Code installed.  
