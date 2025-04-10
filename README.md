@@ -52,10 +52,10 @@ Steps:
 
 2. Configure the database:  
 
-Update src/main/resources/application.properties:  
-spring.application.name=projetoSimples
-server.port = 8080
-
+- Update src/main/resources/application.properties:  
+  
+spring.application.name=projetoSimples  
+server.port = 8080  
 spring.datasource.url=jdbc:postgresql://localhost:5432/postgres  
 spring.datasource.username=postgres  
 spring.datasource.password=5060  
