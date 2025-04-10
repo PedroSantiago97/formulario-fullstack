@@ -84,7 +84,7 @@ This project has two main components:
       nome VARCHAR(200),  
       email VARCHAR(50) NOT NULL,  
       senha TEXT NOT NULL,  
-      telefone VARCHAR(15) NOT NULL,}    
+      telefone VARCHAR(15) NOT NULL,)    
       
 Now, test the code ✅
 
