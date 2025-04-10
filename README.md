@@ -66,4 +66,16 @@ Steps:
 
 - Right-click the project → Run As → Spring Boot App.
 
+
+
 - The backend will start at http://localhost:8080.
+
+4. Create DataBase:  
+- In postgres, create a database named "postgres"
+- Enter the command for create table:
+  - CREATE TABLE usuario (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(200),
+    email VARCHAR(50) NOT NULL,
+    senha TEXT NOT NULL,
+    telefone VARCHAR(15) NOT NULL,}
